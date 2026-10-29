@@ -1,0 +1,77 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Cuaderno argollado",
+      "categoria": "Papelería",
+      "precio": 6500,
+      "stock": 40
+    },
+    {
+      "id": 2,
+      "nombre": "Esfero negro",
+      "categoria": "Papelería",
+      "precio": 1500,
+      "stock": 120
+    },
+    {
+      "id": 3,
+      "nombre": "Memoria USB 32GB",
+      "categoria": "Tecnología",
+      "precio": 28000,
+      "stock": 15
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Laura Gómez",
+      "documento": "1012345678",
+      "telefono": "3001112233",
+      "correo": "laura@correo.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Pérez",
+      "documento": "80123456",
+      "telefono": "3109998877",
+      "correo": "carlos@correo.com"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": 1,
+      "nombre": "Distribuidora Andina",
+      "nit": "900123456-1",
+      "telefono": "6015551234",
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 2,
+      "nombre": "TecnoMayorista",
+      "nit": "901987654-2",
+      "telefono": "6017774321",
+      "ciudad": "Medellín"
+    }
+  ],
+  "compras": [
+    {
+      "id": 1,
+      "proveedor": "Distribuidora Andina",
+      "producto": "Cuaderno argollado",
+      "cantidad": 50,
+      "total": 250000,
+      "fecha": "2026-10-20"
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "cliente": "Laura Gómez",
+      "producto": "Esfero negro",
+      "cantidad": 10,
+      "total": 15000,
+      "fecha": "2026-10-25"
+    }
+  ]
+}

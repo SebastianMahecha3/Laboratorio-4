@@ -1,0 +1,22 @@
+{
+  "name": "negocio-crud",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "json-server --watch db.json --port 3000",
+    "start": "concurrently \"npm run api\" \"npm run dev\"",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "concurrently": "9.1.2",
+    "json-server": "0.17.4",
+    "vite": "5.4.11"
+  }
+}
